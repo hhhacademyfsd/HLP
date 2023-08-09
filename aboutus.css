@@ -1,0 +1,72 @@
+
+.about_card_pic{
+    width: 250px;
+}
+.about_pharm_pic{
+    width: 500px;
+
+}
+.para{
+    overflow: auto;
+}
+body{
+    font-size: auto;
+}
+/* .H_A_div{
+
+} */
+@media screen and (max-width: 575.98px) {
+    /* Your CSS styles for extra small devices go here */
+    .H_A_div{
+        font-size: auto;
+    }
+    .about_pharm_pic{
+        width: 250px;
+        /* transform: skewX(0deg); */
+    }
+    .para{
+        overflow: auto;
+        font-size:auto;
+        height: 100px;
+        
+    }
+    .about_card_pic{
+    font-size: auto;
+    width: 120px;
+}
+
+}
+ @media screen and (min-width: 576px) and (max-width: 767.98px) {
+/* Your CSS styles for small devices go here */
+
+}
+ @media screen and (min-width: 768px) and (max-width: 991.98px) {
+/* Your CSS styles for small devices go here */
+
+}
+ @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .about_pharm_pic{
+        width: 450px;
+        /* transform: skewX(0deg); */
+    }
+    .para{
+        overflow: auto;
+        font-size:auto;
+        height: 100px;
+        
+    }
+/* Your CSS styles for small devices go here */
+
+}
+ @media screen and (min-width: 1200px){
+/* Your CSS styles for small devices go here */
+
+}
+  @media screen and (orientation: landscape) {
+/* Your CSS styles for landscape orientation go here */
+
+}
+ @media screen and (orientation: portrait) {
+/* Your CSS styles for portrait orientation go here */
+
+ }

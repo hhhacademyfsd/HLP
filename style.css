@@ -1,0 +1,324 @@
+/* .menu{
+    padding: 10px;
+     list-style-type: none;
+     background-color:white;
+     color:blue;
+    
+     border-radius: 10px;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     
+  
+}  */
+/* .a_menu{
+    text-decoration: none; color: blue;
+    padding: 10px;
+} */
+/* .a_menu:hover{
+    text-decoration: none; color: white;
+    padding: 10px;
+} */
+/* .menu:hover{
+    padding: 10px;
+     list-style-type: none;
+     background-color:blue;
+     color:white;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     
+  
+}  */
+/* .logo{
+    width:80px;
+     border-radius: 50%;
+     transition: all 3s;
+} */
+/* .logo:hover{
+    transform: rotateY(360deg);
+} */
+.crousel{
+    height: 450px;
+}
+.gif{
+    width:100px;
+}
+
+
+body{
+    /* background-image: url(images/pharm8.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style-type: none;
+    /* display: flex; */
+}
+.health_product{
+    width: 300px;
+    padding-top: 20px;
+}
+.blood_pressure{
+    width: 550px;
+}
+.baby2{
+    width:1000px; 
+    height: 319px;
+}
+.baby1{
+    width:300px; 
+    height: 300px;
+}
+.pic{
+    width:100%;
+    height: 50px;
+    background-image: url(images/new.jpg);
+    background-attachment: fixed;
+    opacity: 1;
+}
+.para{
+    font-size: auto;
+    max-width: 80%;
+    text-align: justify;
+    /* min-width: 1%; */
+}
+h1{
+    font-size: auto;
+}
+h3{
+    font-size: 10px;
+
+}
+.footer{
+    font-size:18px;
+}
+.yt{
+    color: red; font-size: 25px;
+   
+}
+.fb{
+    color: darkblue; font-size: 30px;
+}
+.inst{
+    color:rgb(233, 155, 168); font-size: 30px;
+}
+.tiwi{
+    color:rgb(54, 54, 202); font-size: 30px;
+}
+
+
+@media screen and (max-width: 575.98px) {
+/* Your CSS styles for extra small devices go here */
+/* footer icon */
+.discount_image{
+    display: none;
+}
+.crousel{
+    height: 140px;
+}
+
+.yt{
+    color: red; font-size: 15px;
+   
+}
+.fb{
+    color: darkblue; font-size: 15px;
+}
+.inst{
+    color: rgb(233, 155, 168); font-size: 15px;
+}
+.tiwi{
+    color: rgb(54, 54, 202); font-size: 15px;
+}
+
+/* .logo{
+    width:50px;
+     border-radius: 20px;
+     padding-bottom: 5px;
+     padding-left: 10px;
+     
+     
+    }
+    .logo_div{
+        text-align: center;
+        padding-bottom: 5px;
+    display: flex; 
+    justify-content: space-around; 
+} */
+/* .menu{
+    margin-left:-8px;
+    padding: 5px;
+     list-style-type: none;
+     background-color:white;
+     color:blue;
+     border-radius: 10px;
+     font-size: 12px;
+     width: 50px;
+  
+} 
+.menu:hover{
+    padding: 10px;
+     list-style-type: none;
+     background-color:blue;
+     color:white;
+     
+  
+}  */
+.gif{
+    width:50px;
+}
+.footer{
+    font-size:8px;
+    padding: 0px;
+}
+.health_product{
+    width: 100px;
+}
+.blood_pressure{
+    width: 150px;
+}
+.baby2{
+    width: 250px;
+    height:80px ;
+    padding-left: 20px;
+
+}
+.baby1{
+    width:120px;
+    height:80px;
+}
+}
+ @media screen and (min-width: 576px) and (max-width: 767.98px) {
+/* Your CSS styles for small devices go here */
+
+/* .logo{
+    width:70px;
+     border-radius: 20px;
+     padding-left: 40px;
+     padding-bottom: 5px;
+     
+    }
+    .logo_div{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5px;
+} */
+.discount_image{
+    display: none;
+}
+.footer{
+    font-size:11px;
+    padding: 0px;
+}
+.baby2{
+    width: 300px;
+    height:100px ;
+    padding-left: 20px;
+
+}
+.baby1{
+    width:100px;
+    height:100px;
+}
+
+}
+ @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .discount_image{
+        display: none;
+    }
+    /* .logo{
+        width:70px;
+         border-radius: 20px;
+         padding-bottom: 5px;
+         padding-left: 40px;
+         
+        }
+        .logo_div{
+            text-align: center;
+            padding-bottom: 5px;
+         display: flex; 
+        justify-content: space-around; 
+    } */
+/* Your CSS styles for small devices go here */
+.blood_pressure{
+    width: 230px;
+}
+.baby2{
+    width: 500px;
+    height:200px ;
+    padding-left: 20px;
+
+}
+.baby1{
+    width:250px;
+    height:180px;
+}
+.crousel{
+    height: 280px;
+}
+}
+ @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .crousel{
+        height: 350px;
+    }
+    /* .menu{
+        padding-left: 10px;
+         list-style-type: none;
+         background-color:white;
+         color:blue;
+         border-radius: 10px;
+         font-size: 18px;
+         width: 80px;
+         
+    
+      
+    } 
+    .menu:hover{
+        padding: 10px;
+         list-style-type: none;
+         background-color:blue;
+         color:white;
+         
+      
+    }  */
+/* Your CSS styles for small devices go here */
+.baby2{
+    width: 700px;
+    height:200px ;
+    /* padding-left: 20px; */
+
+}
+.baby1{
+    width:200px;
+    height:200px;
+}
+}
+ @media screen and (min-width: 1200px){
+/* Your CSS styles for small devices go here */
+
+}
+  @media screen and (orientation: landscape) {
+/* Your CSS styles for landscape orientation go here */
+/* .baby2{
+    width: 500px;; 
+    height:200px ;
+}
+.baby1{
+    width:100;
+    height:100;
+} */
+}
+ @media screen and (orientation: portrait) {
+/* Your CSS styles for portrait orientation go here */
+
+ }

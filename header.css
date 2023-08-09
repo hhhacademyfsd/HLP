@@ -1,0 +1,407 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('bg2.png');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+.short{
+    background-color: none;
+    color: none;
+}
+.clock{
+    color: white;
+}
+
+
+/* ========================   NAV BAR Start   =========================  */
+.home-btn{
+    color: black;
+}
+
+.nav_out_main {
+    /* border: 2px solid red; */
+    height: fit-content;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.nav_left_main {
+    /* border: 2px solid green; */
+    height: 140px;
+    text-align: right;
+
+}
+
+.nav_right_main {
+    /* border: 2px solid blue; */
+    height: fit-content;
+}
+
+/* ----------------------------- */
+.navbar-toggler-icon {
+    /* border: 1px solid brown; */
+    border-radius: 4px;
+    color: brown;
+    background-color: white;
+}
+.All_button_box{
+    margin-top: -15px;
+}
+.logo {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    transition: all 3s;
+}
+
+.logo:hover {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    transform: rotate(360deg);
+}
+
+/* main nav bar out div  */
+.navbar {
+    /* border: 2px solid magenta; */
+    /* border-radius: 30px; */
+    height: fit-content;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    border-bottom: 1px solid white;
+    /* border-radius: 0px; */
+    color: white;
+    height: 50px;
+    background-color: darkred;
+}
+
+.nav_bar_title_bar {
+    margin-top: 10px;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    /* margin-top: 0px; */
+    margin-left: 15x;
+    /* border: 2px solid green; */
+    /* height: 15px; */
+}
+
+.nav-item {
+    height: fit-content;
+    margin-top: 12px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+.search_box {
+    /* border:  2px solid yellow; */
+    margin-top: 0px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-family: 'Agdasima', sans-serif; */
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.title:hover {
+    color: white;
+    font-size: 30px;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.home-btn {
+
+    padding: 5px;
+    /* color: white; */
+    background-color: white;
+}
+
+.home-btn:hover {
+    border-bottom: 3px solid yellow;
+    padding: 5px;
+    /* color: white; */
+}
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {
+    .logo {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -10px;
+        transition: all 3s;
+    }
+    .logo:hover {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -10px;
+        transition: all 3s;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -25px;
+        transition: all 3s;
+    }
+    .logo:hover {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -25px;
+        transition: all 3s;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .clock{
+        color: black;
+    }
+    .logo {
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -20px;
+        transition: all 3s;
+    }
+    .title {
+        color: cyan;
+        font-size: 30px;
+        margin-top: 10px;
+        /* font-family: 'Agdasima', sans-serif; */
+        font-family:'Times New Roman', Times, serif;
+
+    }
+
+    .nav_bar_title_bar {
+        margin-top: -5px;
+        margin-left: 20px;
+        /* border: 2px solid red; */
+        height: fit-content;
+    }
+    /* .logo {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -25px;
+        transition: all 3s;
+    } */
+    .logo:hover {
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -20px;
+        transition: all 3s;
+    }
+    .short{
+        background-color:white;
+        font-weight: bold;
+        font-style: italic;
+        color: aliceblue;
+        /* color: none; */
+    }
+    .home-btn{
+        background-color:white;
+        /* border-bottom: 2px groove lightgray;
+        border-bottom: 2px groove green; */
+         border-bottom: 2px groove blue;
+        color: black;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .clock{
+        color: black;
+    }
+    .logo {
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -20px;
+        transition: all 3s;
+    }
+    .title {
+        color: cyan;
+        font-size: 30px;
+        margin-top: 10px;
+        /* font-family: 'Agdasima', sans-serif; */
+        font-family:'Times New Roman', Times, serif;
+
+    }
+    .short{
+        background-color:white;
+        font-weight: bold;
+        font-style: italic;
+        color: aliceblue;
+        /* color: none; */
+    }
+    .home-btn{
+        background-color:white;
+        /* border-bottom: 2px groove lightgray;
+        border-bottom: 2px groove green; */
+         border-bottom: 2px groove blue;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .clock{
+        color: black;
+    }
+    .logo {
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -20px;
+        transition: all 3s;
+    }
+    .title {
+        color: cyan;
+        font-size: 30px;
+        margin-top: 10px;
+        /* font-family: 'Agdasima', sans-serif; */
+        font-family:'Times New Roman', Times, serif;
+
+    }
+    .short{
+        background-color:white;
+        font-weight: bold;
+        font-style: italic;
+        color: aliceblue;
+        /* color: none; */
+    }
+    .home-btn{
+        background-color:white;
+        /* border-bottom: 2px groove lightgray;
+        border-bottom: 2px groove green; */
+         border-bottom: 2px groove blue;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .clock{
+        color: black;
+    }
+    .logo {
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -14px;
+        transition: all 3s;
+    }
+    .title {
+        color: cyan;
+        font-size: 30px;
+        margin-top: 10px;
+        /* font-family: 'Agdasima', sans-serif; */
+        font-family:'Times New Roman', Times, serif;
+
+    }
+    .nav_bar_title_bar {
+        margin-top: -7px;
+        margin-left: 0px;
+        /* border: 2px solid red; */
+        height: fit-content;
+    }
+    .short{
+        background-color:white;
+        font-weight: bold;
+        font-style: italic;
+        color: aliceblue;
+        /* color: none; */
+    }
+    .home-btn{
+        background-color:white;
+        /* border-bottom: 2px groove lightgray;
+        border-bottom: 2px groove green; */
+         border-bottom: 2px groove blue;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .clock{
+        color: black;
+    }
+    .logo {
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: -13px;
+        transition: all 3s;
+    }
+    
+    .title {
+        color: cyan;
+        font-size: 30px;
+        margin-top: 10px;
+        /* font-family: 'Agdasima', sans-serif; */
+        font-family:'Times New Roman', Times, serif;
+    }
+    .nav_bar_title_bar {
+        margin-top: -7px;
+        margin-left: 0px;
+        /* border: 2px solid red; */
+        height: fit-content;
+    }
+    .short{
+        background-color:white;
+        font-weight: bold;
+        font-style: italic;
+        color: aliceblue;
+        /* color: none; */
+    }
+    .home-btn{
+        background-color:white;
+        /* border-bottom: 2px groove lightgray;
+        border-bottom: 2px groove green; */
+         border-bottom: 2px groove blue;
+        color: black;
+    } 
+    
+}
